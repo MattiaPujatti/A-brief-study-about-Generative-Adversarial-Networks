@@ -1,0 +1,25 @@
+tanh for generator
+sigmoid for discriminator
+pre-train the discriminator?
+use different games?
+plot accuracy/loss
+dense or conv2dT or Upsampling?
+preprocess images?
+use different learning rate (disc>gen) to slow down the generator so that the discriminator
+learn to classify better?
+label smoothing (allow the discriminator to generalize better)
+in dcgan no fully connected hidden layers 
+no kernel_init=randomnormal for shapes (too many colors)
+give a look at all the problems in training GANs
+before tune hyperpar, then change loss
+
+
+HYPERPARAMETERS:
+
+beta1 = 0.9, 0.5
+lr = 0.001, 0.0001
+mini_batch = 128, 256
+ 
+
+
+ 
